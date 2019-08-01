@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: iiwa_description
+    relative_path: urdf/iiwa_robotiq85_gripper.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/iiwa14.srdf
+  CONFIG:
+    author_name: Lars
+    author_email: lars@lipman.eu
+    generated_timestamp: 1561001949
